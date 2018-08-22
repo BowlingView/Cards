@@ -284,6 +284,7 @@ import Player
 
 // Player Delegates
 extension CardPlayer: PlayerDelegate {
+    public func player(_ player: Player, didFailWithError error: Error?) {}
     public func playerReady(_ player: Player) {
         
         player.view.addSubview(playPauseV)
