@@ -124,7 +124,7 @@ import Player
         // Player Init
         player.playerDelegate = self
         player.playbackDelegate = self
-        player.fillMode = PlayerFillMode.resizeAspectFill.avFoundationType
+        player.fillMode = PlayerFillMode.resizeAspectFill
         if let url = videoSource { player.url = url }
         else { print("CARDS: Something wrong with the video source URL") }
        
